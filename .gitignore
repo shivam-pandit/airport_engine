@@ -1,0 +1,54 @@
+# Dependency directories
+node_modules/
+
+# Compiled files & caches
+*.js
+!eslint.config.js
+!postcss.config.js
+!tailwind.config.js
+!vite.config.ts
+
+# Large generated database & processed data files
+airports.db
+airports_processed.json
+
+# Scratch & Raw Datasets (Contains large CSVs)
+scratch/
+
+# Frontend builds
+frontend/dist/
+frontend/dist-ssr/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
